@@ -1,0 +1,59 @@
+.project {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: rgba(0, 0, 0, .1);
+}
+
+.project:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/bg.jpg');
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.project .content {
+    position: absolute;
+    top: 20%;
+    width: 50%;
+    left: 20px;
+    padding: 1rem;
+    margin-left: 5%;
+    margin-bottom: 0px;
+}
+
+
+.project h2 {
+    font-size: 36px;
+    color:#47B5FF ;
+}
+
+.project span {
+    color: #1363DF;
+}
+
+.project .content p {
+    margin: 1rem 0;
+}
+
+
+@media screen and (max-width: 940px) {
+    .project .content {
+        left: 0;
+        width: 100%;
+        padding: 1rem;
+        background: rgba(255, 255, 255, .7);
+    }
+}
+
+
+
+
+
+
+
+
+
+
